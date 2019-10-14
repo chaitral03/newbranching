@@ -1,0 +1,104 @@
+*{
+    margin:0px;
+    padding:0px;
+  }
+  header,footer{
+  padding:30px;
+  background-color:rgb(10, 10, 10);
+  text-align:center;
+      color:white;
+  }
+  nav{
+      padding:5px;
+
+      background-color:orange;
+      text-align:center;
+  }
+  nav ul li{
+      display:inline;
+  }
+  li>a{
+      text-decoration:none;
+      font-size:22px;
+      font-weight:blod;
+      color:blue;
+      margin-left:10px;
+  }
+ 
+  #homepage,#newspage{
+      padding:100px;
+      overflow:auto;
+      background-color:#c3eaf7;
+  }
+  #aboutpage,#contactpage{
+      padding:100px;
+      background-color:#e1eff3;
+  }
+  aside{
+      width:300px;
+      float:left;
+  }
+  #second
+  {
+      background-color: black;
+      border:0;
+      margin:auto;
+      border-collapse:collapse;
+  }
+  figure{
+      float:left;
+      margin-left:10px;
+  }
+  #clearsection{
+      clear:both;
+  }
+  footer{
+      text-align:center;
+      color:white;
+  }
+  #img{
+      width:100%;
+      height:50%;
+      background-color: rgb(60, 110, 108);
+  }
+  .centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  table{
+      width:300px;
+      margin:auto;
+      border-collapse:collapse;
+     
+  
+  }
+  th,td{
+    padding:20px;
+  }
+  .box{
+     height:35px;
+     width:175px;
+     border:2px solid blue;
+     background-color:pink;
+     border-radius:5px;
+  }
+  #btn1{
+      height:35px;
+      width:100px;
+      background-color:blue;
+      color:white;
+      font-size:18px;
+      text-transform:uppercase;
+      border:2px ridge white;
+  }
+  #btn2{
+      height:35px;
+      width:100px;
+      background-color:red;
+      color:white;
+      font-size:18px;
+      text-transform:uppercase;
+      border:2px ridge white;
+  }
